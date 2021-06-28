@@ -1,0 +1,59 @@
+.sideHeader {
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    background: #fff;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    box-shadow: -4px 0px 20px rgb(0 0 0 / 10%);
+    transform: translateX(350px);
+    transition: 0.3s;
+}
+.shContain {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+.shButton {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.shButton i {
+    font-size: 40px;
+    color: rgba(0,0,0,0.6);
+}
+.shTitle {
+    text-align: center;
+}
+.shNav ul {
+    list-style: none;
+}
+.shNav ul li {
+    margin: 20px 0px;
+}
+.shNav ul li a {
+    color: rgba(0,0,0,0.6);
+    font-weight: 600;
+}
+.shSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shSocial ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.shSocial ul li {
+    margin-right: 1rem;
+}
+.shSocial ul li a {
+    color: rgba(0,0,0,0.8);
+    font-size: 16px;
+}

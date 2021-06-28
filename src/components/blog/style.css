@@ -1,0 +1,31 @@
+.blog {
+    background: #f7f7ff;
+    padding: 100px 0px;
+}
+.blogBox {
+    margin: 30px 0 0 0;
+    overflow: hidden;
+}
+.blogBox:hover .blogImage img {
+    filter: grayscale(1);
+    transform: scale(1.1);
+}
+.blogImage {
+    overflow: hidden;
+}
+.blogImage img {
+    width: 100%;
+    transition: 0.3s;
+}
+.blogInfo {
+    padding: 10px 0px;
+}
+.blogInfo span {
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+}
+.blogInfo h3 {
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 700;
+}

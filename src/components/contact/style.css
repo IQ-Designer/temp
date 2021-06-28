@@ -1,0 +1,53 @@
+.contact {
+    padding: 100px 0px;
+}
+.contactBox {
+    margin: 30px 0px 0px 0px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid #f7f7ff;
+}
+.cbIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cbCenterIcon {
+    background: #F4A261;
+    color: #fff;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.cbInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.cbCenterText h5 {
+    font-weight: 700;
+    margin: 0;
+}
+.cbCenterText span {
+    color: rgba(0,0,0,0.6);
+}
+.formTitle {
+    padding: 30px 0px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+.form-group input {
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgb(244 162 97 / 45%) !important;
+    border-color: #f4a261 !important;
+}

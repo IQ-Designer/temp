@@ -1,0 +1,59 @@
+.store {
+    padding: 100px 0px;
+}
+.storeMenu {
+    display: flex;
+    list-style: none;
+    margin: 30px 0px 0px 0px;
+}
+.storeMenu li {
+    margin: 0 1rem;
+    position: relative;
+}
+.storeMenu li a {
+    color: #000;
+}
+.storeMenu .pActive:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    margin: auto;
+    background: #F4A261;
+    width: 100%;
+    border-radius: 3px;
+}
+.storeBox {
+    position: relative;
+    overflow: hidden;
+    margin: 30px 0 0 0;
+}
+.storeBox:hover img {
+    filter: brightness(1);
+    animation: sbscale 1s infinite linear;
+}
+@keyframes sbscale {
+    0%   {transform: scale(1);}
+    25%  {transform: scale(1.1);}
+    50%  {transform: scale(1.2);}
+    75%  {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+.sbImage {
+    overflow: hidden;
+}
+.storeBox img {
+    width: 100%;
+    filter: brightness(0.7);
+    transition: 0.3s;
+}
+.sbinfo {
+    padding: 10px 0 0 0;
+}
+.sbinfo h6 {
+    margin: 0;
+}
+.sbinfo span {
+    color: rgba(0,0,0,0.5);
+}

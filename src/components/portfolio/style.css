@@ -1,0 +1,62 @@
+.portfolio {
+    padding: 100px 0px;
+}
+.portfolioMenu {
+    display: flex;
+    list-style: none;
+    margin: 30px 0px 0px 0px;
+}
+.portfolioMenu li {
+    margin: 0 1rem;
+    position: relative;
+}
+.portfolioMenu li a {
+    color: #000;
+}
+.portfolioMenu .pActive:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: -3px;
+    margin: auto;
+    background: #F4A261;
+    width: 100%;
+    border-radius: 3px;
+}
+.portfolioBox {
+    position: relative;
+    overflow: hidden;
+    margin: 30px 0 0 0;
+}
+.portfolioBox:hover .pbabs {
+    opacity: 1;
+}
+.portfolioBox img {
+    width: 100%;
+}
+.pbabs {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #171616;
+    padding: 15px 25px 15px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.pbabsContent {
+    text-align: center;
+    color: #fff;
+}
+.pbabsContent h5 {
+    font-weight: 700;
+}
+.pbabsContent p {
+    margin: 0;
+}

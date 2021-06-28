@@ -1,0 +1,105 @@
+header {
+    padding: 20px 0px 20px 0px;
+}
+.headerContainer {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+.social ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.social ul li {
+    margin-right: 1rem;
+}
+.social ul li:last-child {
+    margin-right: 0rem;
+}
+.social ul li a {
+    color: rgba(0,0,0,0.8);
+    font-size: 16px;
+    transition: 0.3s;
+}
+.social ul li a:hover {
+    color: #F4A261;
+}
+.separated {
+    background: url("../../assets/border.png");
+    padding: 30px 0px 30px 0px;
+    background-position: center;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+}
+.sticky {
+    position: fixed;
+    background: #fff;
+    z-index: 11;
+    padding: 15px 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    box-shadow: -4px 0px 20px rgb(0 0 0 / 10%);
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav ul li a{
+    padding: 8px 25px;
+    border-radius: 30px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 600;
+}
+.navActive {
+    background: #F4A261;
+    color: #fff !important;
+}
+.rightNav {
+    display: flex;
+    justify-content: flex-end;
+}
+.rightNav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rightNav ul li {
+    margin-right: 1rem;
+    height: 37px;
+    width: 37px;
+    background: #F4A261;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.rightNav ul li:last-child {
+    margin-right: 0rem;
+}
+.rightNav ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+.rightNav ul li a i {
+    display: flex;
+}

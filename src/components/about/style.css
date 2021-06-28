@@ -1,0 +1,44 @@
+.about {
+    padding: 0px 0px 100px 0px;
+}
+.aboutText {
+    margin: 30px 0px 0px 0px;
+    padding: 40px 40px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aboutText h3 {
+    font-weight: 800;
+}
+.aboutText p {
+    font-weight: 600;
+}
+.abh {
+    height: 2px !important;
+    background: #F4A261;
+}
+.atp p {
+    color: rgba(0,0,0,0.6);
+}
+.aboutImage {
+    background: url(../../assets/1.jpg) fixed;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    margin: 30px 0px 0px 0px;
+    border-radius: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.aboutImage:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(6,12,14,0.5);
+    border-radius: 10px;
+}

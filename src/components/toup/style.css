@@ -1,0 +1,25 @@
+#ToUp {
+    background: #fff;
+    position: fixed;
+    right: 10px;
+    border: 2px solid #f4a261;
+    bottom: 15px;
+    font-size: 25px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 30px;
+    color: #f4a261;
+    transition: 0.3s;
+}
+#ToUp i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ToUp:hover {
+    background: #f4a261;
+    color: #fff !important;
+}

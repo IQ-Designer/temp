@@ -1,0 +1,57 @@
+.heroImage {
+    background: url(../../assets/1.jpg) fixed;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #0000007a;
+}
+.heroImage:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(6,12,14,0.5);
+    border-radius: 10px;
+}
+.heroContain {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heroContain button {
+    background: #F4A261;
+    border: none;
+    color: #fff;
+    background-size: 200% auto;
+    width: 100px;
+    padding: 8px 0px;
+    transition: 0.5s;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.heroContain button:hover {
+    background-size: 100% auto;
+    color: #fff;
+}
+.heroContain button:focus {
+    box-shadow: 0 0 0 0.25rem rgb(254 79 112 / 25%);
+}
+.heroContain h3 {
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+}
+.heroContain p {
+    color: rgba(255,255,255,0.5);
+}

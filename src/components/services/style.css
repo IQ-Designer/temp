@@ -1,0 +1,39 @@
+.services {
+    padding: 100px 0;
+}
+.servicesBox {
+    padding: 40px 40px 40px 40px;
+    border: 1px solid #EBEBEB;
+    margin: 30px 0px 0px 0px;
+    border-radius: 10px;
+}
+.servicesBox h3 {
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.servicesBox h3 span {
+    color: #F4A261;
+}
+.servicesBox p {
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+    font-size: 18px;
+}
+.serviceReadMore a {
+    color: rgba(0,0,0,0.6);
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.serviceReadMore a:hover {
+    color: rgba(0,0,0,0.6);
+}
+.serviceReadMore a:hover i {
+    margin-left: 0.5rem;
+}
+.serviceReadMore a i {
+    color: #F4A261;
+    font-size: 30px;
+    transition: 0.5s;
+}

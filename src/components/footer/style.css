@@ -1,0 +1,17 @@
+footer {
+    padding: 25px 0px;
+}
+.footerContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContain p {
+    margin: 0;
+    color: rgba(0,0,0,0.6);
+    font-weight: 700;
+}
+.footerContain p span {
+    color: #f4a261;
+    font-size: 25px;
+}

@@ -1,0 +1,38 @@
+.testimonials {
+    padding: 100px 0px;
+    background: #f7f7ff;
+}
+.testimonialsBox {
+    padding: 35px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 30px 0px 0px 0px;
+}
+.tbAvatar img {
+    width: 100%;
+    border-radius: 100%;
+}
+.tbText p {
+    color: rgba(0,0,0,0.6);
+}
+.tbText h5 {
+    margin: 0;
+}
+.tbText span {
+    font-size: 12px;
+    color: rgba(0,0,0,0.6);
+}
+.carousel-indicators {
+    top: auto;
+    bottom: -70px !important;
+}
+.carousel-indicators button {
+    border: 0px !important;
+    border-radius: 100% !important;
+    background: #ebebeb !important;
+    height: 10px !important;
+    width: 10px !important;
+}
+.carousel-indicators .active {
+    background: #F4A261 !important;
+}
